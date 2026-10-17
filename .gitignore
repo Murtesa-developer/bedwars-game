@@ -1,0 +1,27 @@
+# Godot 4
+.godot/
+.mono/
+data_*/
+*.translation
+export_credentials.cfg
+
+# Build output (APPX package, exported exe, logs)
+build/
+*.appx
+*.msix
+*.msixupload
+*.exe
+*.pck
+
+# Signing keys and certificates - never commit these
+*.pfx
+*.cer
+*.pvk
+
+# Editors / OS
+.vs/
+.vscode/
+.idea/
+*.tmp
+Thumbs.db
+.DS_Store
